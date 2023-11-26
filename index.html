@@ -3,14 +3,14 @@
 
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <title>Project</title>
     <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/favicon/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon/favicon-16x16.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600&family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/app.min.css" type="text/css" media="all" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -55,7 +55,7 @@
 </section>
 <section class="section--padding">
   <div class="col__container col__container-lc">
-  <div class="row">
+  <div class="row align-items-center">
     <div class="col-md-6">
       <div class="col__content">
         <h2 class="section--title text--primary text--h1">Fully responsive variants by means of prototyping that provide a clear view of interactions</h2>
@@ -66,13 +66,13 @@
 </div>
       </div>
     </div>
-    <div class="col-md-6">
+    <div class="floating-image">
       <div class="col__image col__image-right">
         <div class="mockup mockup--light">
-          <img class="img-fluid" src="./assets/images/appknite-first-light.svg" alt="">
+          <img class="img-fluid" src="./assets/images/appknite-responsive.svg" alt="">
         </div>
         <div class="mockup mockup--dark">
-          <img class="img-fluid" src="./assets/images/appknite-first-light.svg" alt="">
+          <img class="img-fluid" src="./assets/images/appknite-responsive.svg" alt="">
         </div>
       </div>
     </div>
@@ -113,7 +113,7 @@
 </div>
 </section>
 <section class="section--padding tabSlider">
-  <div class="container">
+  <div class="custom__container">
     <h2 class="text--h1 text--primary section--title text--center">Dashboards showing every piece of information available.</h2>
     <p class="text--body text--secondary section--desc text--center">The following platform contains multiple modules and each module comes with its own dashboard that can be switched from the page header.</p>
 
@@ -169,7 +169,7 @@
   </div>
 </section>
 <section class="section--padding tabSlider">
-  <div class="container">
+  <div class="custom__container">
     <h2 class="text--h1 text--primary section--title text--center">Functional components with variants interactions enabled.</h2>
     <p class="text--body text--secondary section--desc text--center">Each and every component is designed and prototyped within variant to represent a clear functions and behaviour such as steppers and input fields.</p>
 
@@ -226,8 +226,8 @@
 </section>
 <section class="section--padding">
   <div class="col__container col__container-rc">
-  <div class="row">
-    <div class="col-md-6 order-2 order-md-1">
+  <div class="row align-items-center">
+    <div class="floating-image order-2 order-md-1">
       <div class="col__image col__image-left">
         <div class="mockup mockup--light">
           <img class="img-fluid" src="./assets/images/appknite-first-light.svg" alt="">
@@ -237,7 +237,7 @@
         </div>
       </div>
     </div>
-    <div class="col-md-6 order-1 order-md-2">
+    <div class="col-md-6 order-1 offset-md-6">
       <div class="col__content">
         <h2 class="section--title text--primary text--h1">Fully responsive variants by means of prototyping that provide a clear view of interactions</h2>
         <p class="section--desc text--secondary text--body">Created layer components with parent and child container and combined them together along with multiple states such as hover, rest, pressed, and etc. Here is a fully functional prototype to see how it works. Explore now!</p>
@@ -375,7 +375,7 @@
 </div>
 </section>
     <footer class="footer section--padding">
-  <div class="container">
+  <div class="custom__container">
     <div class="footer__row">
       <div class="footer__left">
         <div class="footer__logo">
@@ -384,17 +384,37 @@
           </svg>
           <a href="mailto:harishj89@gmail.com">harishj89@gmail.com</a>
         </div>
-        <h2 class="footer__title text--h1 text--primary">A fancy looking headline for the footer to go here!</h2>
+        <h2 class="footer__title text--h1 text--primary">Spellbound by the scenery?<br /> Drop me a line.</h2>
         <div class="footer__social">
-          <a href="#" class="contact-btn">
-            <div><span class="icon contact"></span> Contact Me</div>
-          </a>
-          <a href="#" class="social-links dr"><span class="icon dribble"></span> <span class="sr-only">Dribbble</span></a>
-          <a href="#" class="social-links be"><span class="icon behance"></span> <span class="sr-only">Behance</span></a>
-          <a href="#" class="social-links li"><span class="icon linked"></span> <span class="sr-only">LinkedIn</span></a>
+          <div class="left">
+            <a href="#" class="contact-btn">
+              <span class="icon contact"></span> Contact Me
+            </a>
+          </div>
+          <div class="right">
+            <a href="#" class="social-links dr"><span class="icon dribble"></span> <span class="sr-only">Dribbble</span></a>
+            <a href="#" class="social-links be"><span class="icon behance"></span> <span class="sr-only">Behance</span></a>
+            <a href="#" class="social-links li"><span class="icon linked"></span> <span class="sr-only">LinkedIn</span></a>
+          </div>
         </div>
       </div>
-      <div class="footer__right"></div>
+      <div class="footer__right">
+        <p class="link-title">Quick Links</p>
+        <ul class="link-list">
+          <li>
+            <a href="#" class="projects">My Projects</a>
+          </li>
+          <li>
+            <a href="#" class="about">About Me</a>
+          </li>
+          <li>
+            <a href="#" class="contact">Contact Me</a>
+          </li>
+          <li>
+            <a href="#" class="resume">Resume</a>
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
 </footer>
@@ -415,7 +435,7 @@
         var $prev = $(this).parents('.custom__container').find(".process_slider-header .btn-prev");
         $(this).slick({
           arrows: true,
-          slidesToShow: 3,
+          slidesToShow: 6,
           slidesToScroll: 1,
           infinite: false,
           dots: false,
@@ -424,6 +444,34 @@
           nextArrow: $next,
           prevArrow: $prev,
           responsive: [
+            {
+              breakpoint: 2560,
+              settings: {
+                slidesToShow: 5,
+                slidesToScroll: 1
+              }
+            },
+            {
+              breakpoint: 1920,
+              settings: {
+                slidesToShow: 4,
+                slidesToScroll: 1
+              }
+            },
+            {
+              breakpoint: 1600,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1
+              }
+            },
+            {
+              breakpoint: 1400,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1
+              }
+            },
             {
               breakpoint: 992,
               settings: {
